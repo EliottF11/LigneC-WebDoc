@@ -10,7 +10,7 @@ Bienvenue sur le dépôt du projet **Mobilités Toulousaines**, un webdocumentai
 
 ## 🎯 Contexte du Projet
 
-Ce projet a été réalisé dans le cadre de la **SAE Mobilités** du BUT Informatique. Il vise à informer et immerger l'utilisateur dans les transformations urbaines liées à la nouvelle ligne de métro, en combinant des données institutionnelles et une véritable enquête de terrain menée auprès des futurs usagers.
+Ce projet a été réalisé dans le cadre de la ressource **R2.13** du BUT Informatique. Il vise à informer et immerger l'utilisateur dans les transformations urbaines liées à la nouvelle ligne de métro, en combinant des données institutionnelles et une véritable enquête de terrain menée auprès des futurs usagers.
 
 ## ✨ Fonctionnalités Principales
 
