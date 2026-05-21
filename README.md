@@ -41,3 +41,16 @@ Ce projet a été réalisé dans le cadre de la ressource **R2.13** du BUT Infor
 ├── 📄 script.js          # Base de données locales (JSON) et logique fonctionnelle
 ├── 📄 favicon.png        # Icône du site
 └── 📁 assets/            # Vidéos, images de rendu et photos de chantier
+
+👥 L'Équipe (Groupe B)
+Projet conçu et développé par les étudiants du BUT Informatique - IUT Toulouse Paul Sabatier :
+
+Fauroux Eliott
+
+Marcaillou
+
+Karim
+
+Rivero
+
+Année universitaire 2025-2026
