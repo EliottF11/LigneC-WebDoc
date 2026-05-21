@@ -30,16 +30,13 @@ Ce projet a été réalisé dans le cadre de la ressource **R2.13** du BUT Infor
 * **Style :** CSS3 (Variables natives, CSS Grid, Flexbox, Animations).
 * **Logique :** Vanilla JavaScript (ES6+), manipulation du DOM, gestion du `SessionStorage`, URLSearchParams pour le routage dynamique.
 
-👥 L'Équipe (Groupe B)
+## 👥 L'Équipe (Groupe B)
 Projet conçu et développé par les étudiants du BUT Informatique - IUT Toulouse Paul Sabatier :
 
-Fauroux Eliott
-
-Marcaillou
-
-Karim
-
-Rivero
+* **Fauroux Eliott**
+* **Marcaillou**
+* **Karim**
+* **Rivero**
 
 Année universitaire 2025-2026
 
