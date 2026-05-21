@@ -30,18 +30,6 @@ Ce projet a été réalisé dans le cadre de la ressource **R2.13** du BUT Infor
 * **Style :** CSS3 (Variables natives, CSS Grid, Flexbox, Animations).
 * **Logique :** Vanilla JavaScript (ES6+), manipulation du DOM, gestion du `SessionStorage`, URLSearchParams pour le routage dynamique.
 
-## 📂 Architecture du Projet
-
-```text
-📁 webdoc-ligne-c/
-├── 📄 Index.html         # Page d'accueil, carte SVG et statistiques globales
-├── 📄 Station.html       # Modèle dynamique pour chaque station
-├── 📄 Thematique.html    # Modèle dynamique pour les axes d'analyse
-├── 📄 style.css          # Feuille de style globale et responsive
-├── 📄 script.js          # Base de données locales (JSON) et logique fonctionnelle
-├── 📄 favicon.png        # Icône du site
-└── 📁 assets/            # Vidéos, images de rendu et photos de chantier
-
 👥 L'Équipe (Groupe B)
 Projet conçu et développé par les étudiants du BUT Informatique - IUT Toulouse Paul Sabatier :
 
@@ -54,3 +42,16 @@ Karim
 Rivero
 
 Année universitaire 2025-2026
+
+## 📂 Architecture du Projet
+
+```text
+📁 webdoc-ligne-c/
+├── 📄 Index.html         # Page d'accueil, carte SVG et statistiques globales
+├── 📄 Station.html       # Modèle dynamique pour chaque station
+├── 📄 Thematique.html    # Modèle dynamique pour les axes d'analyse
+├── 📄 style.css          # Feuille de style globale et responsive
+├── 📄 script.js          # Base de données locales (JSON) et logique fonctionnelle
+├── 📄 favicon.png        # Icône du site
+└── 📁 assets/            # Vidéos, images de rendu et photos de chantier
+
