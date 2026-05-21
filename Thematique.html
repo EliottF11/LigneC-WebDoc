@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thématique — Ligne C Toulouse</title>
+  <meta name="description" content="Explorez les grandes thématiques de la future Ligne C du métro toulousain." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+  <header>
+    <nav class="nav-principale" aria-label="Navigation principale">
+      <div class="nav-interieur">
+        <a href="index.html" class="nav-logo" aria-label="Retour à l'accueil">
+          <span class="nav-logo-texte">Webdoc<span>BUT Informatique · Toulouse</span></span>
+        </a>
+        <ul class="nav-liens" role="list">
+          <li><a href="index.html">La Carte</a></li>
+          <li><a href="Thematique.html?id=mobilite">Mobilité</a></li>
+          <li><a href="Thematique.html?id=ecologie">Écologie</a></li>
+          <li><a href="Thematique.html?id=quartiers">Nouveaux Quartiers</a></li>
+          <li><a href="Thematique.html?id=etudiants">Étudiants</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO — injecté par chargerTheme() -->
+    <section class="hero-station" id="hero-theme" aria-labelledby="theme-titre">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="index.html">Accueil</a>
+        <span aria-hidden="true">›</span>
+        <span id="theme-breadcrumb-nom" aria-current="page">Thématique</span>
+      </nav>
+      <div id="theme-icone" style="font-size:3rem;margin-bottom:0.5rem;" aria-hidden="true"></div>
+      <h1 id="theme-titre">Chargement…</h1>
+      <p id="theme-accroche" style="font-size:1.1rem;color:var(--texte-secondaire);max-width:680px;margin-top:0.5rem;">Chargement…</p>
+    </section>
+
+    <!-- CORPS — injecté par chargerTheme() -->
+    <div class="corps-station" id="contenu-theme">
+
+      <article class="bloc-contenu" aria-labelledby="titre-contenu-theme">
+        <h2 id="titre-contenu-theme">Analyse thématique</h2>
+        <div id="theme-paragraphes"></div>
+      </article>
+
+      <section class="bloc-contenu" aria-labelledby="titre-chiffres">
+        <h2 id="titre-chiffres">📊 Chiffres clés</h2>
+        <div id="theme-chiffres" style="display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1rem;"></div>
+      </section>
+
+      <section class="bloc-contenu" aria-labelledby="titre-citation">
+        <h2 id="titre-citation">💬 Point de vue</h2>
+        <blockquote id="theme-citation"
+          style="border-left:4px solid var(--vert-ligne-c);padding:1.25rem 1.5rem;
+                 background:var(--fond-surface-alt);border-radius:var(--rayon);
+                 font-style:italic;color:var(--texte-principal);"></blockquote>
+      </section>
+
+      <nav class="bloc-contenu" aria-label="Navigation">
+        <h2>Explorer la Ligne C</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:1rem;margin-top:1rem;">
+          <a href="index.html" class="btn-retour">← Retour à la carte</a>
+        </div>
+      </nav>
+
+    </div>
+
+  </main>
+
+  <footer class="pied-de-page">
+    <p>Webdoc universitaire — BUT Informatique · IUT Toulouse Paul Sabatier · Groupe B — Fauroux, Marcaillou, Karim, Rivero · 2025-2026</p>
+    <p style="margin-top:0.5rem;">
+      Sources : <a href="https://www.tisseo.fr" target="_blank" rel="noopener">Tisséo Collectivités</a> ·
+      <a href="https://www.toulouse.fr" target="_blank" rel="noopener">Mairie de Toulouse</a> ·
+      <a href="#">Mentions légales</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
